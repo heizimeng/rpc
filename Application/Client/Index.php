@@ -12,8 +12,9 @@ class Index{
 
     public function IndexActions()
     {
-        $client = new Client('http://addon.com/index.php?m=Server&c=Index&a=Index',false);
-        var_dump($client);
+        $client = new Client('http://addon.com/index.php?m=Server&c=Server&a=Index',false);
+        $a = $client->hello();
+        var_dump($a);
     }
 
 

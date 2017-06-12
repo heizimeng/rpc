@@ -18,7 +18,10 @@ class Index{
         $server->start();
     }
 
-    
+    public function hello()
+    {
+       return 444;
+    }
 }
 
 
