@@ -1,0 +1,15 @@
+{
+    "name": "heizifang/addon",
+    "authors": [
+        {
+            "name": "WuYuZi",
+            "email": "hz@25ic.com"
+        }
+    ],
+
+    "require": {
+        "hprose/hprose": ">=2.0.0",
+        "twig/twig": "~2.0"
+    }
+
+}
